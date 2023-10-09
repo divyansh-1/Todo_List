@@ -9,12 +9,12 @@ export default function Front() {
     </div>
     <div className="todo-wrapper">
         <div className="todo-input">
-          <div className="input-lable">
-            <label>Title</label>
+          <div className="input-item">
+            <label>Title: </label>
             <input type="text" placeholder="Title Goes Here...." />
           </div>
-          <div className="input-lable">
-            <label>Description</label>
+          <div className="input-item">
+            <label>Description: </label>
             <input type="text" placeholder="Description Goes Here...." />
           </div>
           <div className="add-button">
@@ -24,7 +24,7 @@ export default function Front() {
           </div>
         </div>
         <div className="btn-area">
-          <button>Todo</button>
+          <button className=''>Todo</button>
           <button>Completed</button>
         </div>
         <div className="todo-list">

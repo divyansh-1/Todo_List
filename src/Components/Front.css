@@ -1,0 +1,12 @@
+.todo{
+    text-align: center;
+}
+.todo-wrapper{
+    background-color: #353434;
+    padding: 2%;
+    width: fit-content;
+    margin: 3% auto 0 auto;
+    max-width: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.3);
+}
